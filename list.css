@@ -8,6 +8,26 @@
     border-bottom: 1px solid
 }
 
-ul li{
+.disc_list{
+    list-style: disc;
+}
+
+
+
+.circle_list{
     list-style: circle;
+}
+
+
+.square_list{
+    list-style: square;
+}
+
+.none_bullet{
+    list-style: none;
+}
+
+.img_list {
+    list-style: none;
+    background-image: url("../src/cupcake.png") 
 }
