@@ -27,7 +27,7 @@
     list-style: none;
 }
 
-.img_list {
+.img_list li {
     list-style: none;
-    background-image: url("../src/cupcake.png") 
+    background-image: url("../src/cupcake.png")
 }
