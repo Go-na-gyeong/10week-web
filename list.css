@@ -1,9 +1,13 @@
-p {
+ p {
     color: #222;
     width:400px;
     
 }
 
-list_description{
-    border-bottom: 1px solid;
+.list_description {
+    border-bottom: 1px solid
+}
+
+ul li{
+    list-style: circle;
 }
