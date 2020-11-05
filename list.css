@@ -27,7 +27,54 @@
     list-style: none;
 }
 
+
+ol li{
+    list-style: decimal-leading-zero;
+}
+
 .img_list li {
     list-style: none;
-    background-image: url("../src/cupcake.png")
+    background: url("../src/cupcake.png") no-repeat;
+    background-size: 20px;
+    padding: 0 0 0 25px
+ 
+}
+
+
+
+
+.prize li:nth-child(3n+1) {
+background: url("../src/cupcake.png") no-repeat;
+background-size: 20px;
+padding: 0 0 0 25px
+    }
+
+
+
+.prize li:nth-child(3n+2) {
+background: url("../src/cupcake.png") no-repeat;
+background-size: 20px;
+padding: 0 0 0 25px
+    }
+
+
+.prize li:nth-child(3n+3) {
+background: url("../src/trip.png") no-repeat;
+background-size: 20px;
+padding: 0 0 0 25px
+    }
+
+
+.style_dl {
+    width:400px;
+    height: 100px;
+    overflow: auto;
+    }
+
+.style_dl dt{
+    float: left;
+}
+
+.style_dl dd{
+    margin: 0 0 1cm 0;
 }
